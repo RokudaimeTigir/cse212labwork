@@ -1,0 +1,25 @@
+
+public class Car {
+	private String carBrandModel;
+	private int carModelYear;
+	
+	public Car( String carBrandModel, String carModelYear) {
+		
+	}
+	
+	public void setCarBrandModel(String carBrandModel) {
+		this.carBrandModel = carBrandModel;
+	}
+	
+	public void setCarModelYear(int carModelYear) {
+		this.carModelYear = carModelYear;
+	}
+	
+	public String getCarBrandModel() {
+		return carBrandModel;
+	}
+	
+	public int getCarModelYear(int carModelYear) {
+		return carModelYear;
+	}
+}
